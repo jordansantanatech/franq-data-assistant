@@ -1,1 +1,7 @@
-# TODO
+langchain
+langchain-community
+langchain-groq
+streamlit
+plotly
+pandas
+python-dotenv
