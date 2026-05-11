@@ -1,10 +1,10 @@
-# 🤖 Assistente Virtual de Dados — FRANQ
+# Assistente Virtual de Dados — FRANQ
 
 Assistente inteligente capaz de responder perguntas de negócio em linguagem natural, consultando um banco de dados SQLite e apresentando os resultados visualmente de forma automática.
 
 ---
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```
 Usuário (linguagem natural)
@@ -37,7 +37,7 @@ Usuário (linguagem natural)
 
 ---
 
-## ⚙️ Como executar
+## Como executar
 
 ### Pré-requisitos
 - Python 3.11+
@@ -67,7 +67,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 🧠 Fluxo do Agente
+## Fluxo do Agente
 
 1. **Descoberta dinâmica do schema** — o agente lê as tabelas e colunas do banco automaticamente, sem queries hardcoded
 2. **Geração de SQL** — o LLM recebe o schema e a pergunta do usuário e gera a query adequada
@@ -77,7 +77,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 💬 Exemplos de consultas testadas
+## Exemplos de consultas testadas
 
 | Pergunta | Resultado | Visualização |
 |---|---|---|
@@ -89,7 +89,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 🚀 Sugestões de melhorias
+## Sugestões de melhorias
 
 - **Memória de conversa** — manter contexto entre perguntas para perguntas de follow-up
 - **Cache de queries** — armazenar resultados de perguntas frequentes para reduzir latência
@@ -100,7 +100,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 🛠️ Stack
+## Stack
 
 - [Python 3.11](https://python.org)
 - [LangChain](https://langchain.com)
